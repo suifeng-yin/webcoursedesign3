@@ -168,7 +168,7 @@
             <h1 style="color: darkslategrey;padding: 30px">就业指南 </h1>
             <img src="/img/2%20(1).jpg" alt="">
         </div>
-        <p style="padding: 10px;color: darkslateblue;text-indent: 40px;
+        <p style="padding: 10px;color: darkslateblue;text-align: justify; text-indent: 40px;
         font-size: 20px">
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit.

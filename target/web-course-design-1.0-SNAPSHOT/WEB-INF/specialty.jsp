@@ -127,7 +127,8 @@
 
         }
         .jieshao p{
-            text-align: left;
+            text-align: justify;
+            text-indent: 2em;
             color: darkslateblue;
             font-size: 30px;
             padding: 20px;
@@ -189,6 +190,10 @@
             Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
             mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
             praesentium qui quod repellendus?
+
+
+        </p>
+        <p>
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. A
             d at autem culpa debitis dolore dolorem
@@ -198,6 +203,8 @@
             Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
             mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
             praesentium qui quod repellendus?
+        </p>
+        <p>
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. A
             d at autem culpa debitis dolore dolorem

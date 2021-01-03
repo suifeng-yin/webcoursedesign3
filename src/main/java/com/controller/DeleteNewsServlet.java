@@ -12,24 +12,20 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-@WebServlet("/update")
-public class UpdateNewsServlet extends HttpServlet {
+@WebServlet("/delete")
+public class DeleteNewsServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        int id = Integer.parseInt(req.getParameter("uid"));
-        String newName = req.getParameter("title");
-        String newTxt = req.getParameter("txt");
-        String sql = "update news set title=?,txt=? where id=?";
+        String name= req.getParameter("title");
+        String sql= "delete from news where title=?";
         try(Connection conn = DataSourceUtils.getConnection();
             PreparedStatement st = conn.prepareStatement(sql)) {
-            st.setString(1, newName);
-            st.setString(2,newTxt);
-            st.setInt(3, id);
+            st.setString(1,name);
             st.executeUpdate();
-        } catch (SQLException throwables) {
+        }catch (SQLException throwables){
             throwables.printStackTrace();
         }
         resp.sendRedirect(req.getContextPath()+ "/welcome");
     }
-}
 
+}

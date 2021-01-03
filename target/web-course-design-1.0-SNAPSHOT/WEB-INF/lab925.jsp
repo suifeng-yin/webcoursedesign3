@@ -130,10 +130,11 @@
 
         }
         .jieshao p{
-            text-align: left;
+            text-align: justify;
             color: darkslateblue;
             font-size: 30px;
             padding: 20px;
+
         }
         .main-nav{
             width: 200px;
@@ -155,8 +156,10 @@
             font-size: 20px;
             border-radius: 5px;
             border: #365ca3 1px solid;
+            background-color: antiquewhite;
         }
         .main-nav ul li a{
+            display: block;
             text-decoration: none;
         }
         .main-nav ul li:hover{
@@ -221,7 +224,7 @@
 </div>
 <div class="jieshao">
     <h1 >925移动开发实验室</h1>
-    <p>
+    <p style="text-indent: 2em">
         Lorem ipsum dolor sit amet,
         consectetur adipisicing elit. A
         d at autem culpa debitis dolore dolorem

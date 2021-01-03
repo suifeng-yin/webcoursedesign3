@@ -5,26 +5,29 @@ import java.util.Date;
 public class News {
     private int id;
     private String title;
-    private String urll;
+
+    private String txt;
     private Date updatetime;
 
     public News(){
     }
 
-    public News(int id, String title, String urll, Date updatetime) {
+    public News(int id, String title, String txt, Date updatetime) {
         this.id = id;
         this.title = title;
-        this.urll = urll;
+        this.txt = txt;
         this.updatetime = updatetime;
     }
 
-    public String getUrll() {
-        return urll;
+
+    public String getTxt() {
+        return txt;
     }
 
-    public void setUrll(String urll) {
-        this.urll = urll;
+    public void setTxt(String txt) {
+        this.txt = txt;
     }
+
 
     public News(int id, String title, Date updatetime) {
         this.id = id;

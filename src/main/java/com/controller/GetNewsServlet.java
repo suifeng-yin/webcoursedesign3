@@ -30,6 +30,7 @@ public class GetNewsServlet extends HttpServlet {
                     news = new News();
                     news.setId(rs.getInt("id"));
                     news.setTitle(rs.getString("title"));
+                    news.setTxt(rs.getString("txt"));
                     news.setUpdatetime(rs.getTimestamp("date"));
                 }
             }

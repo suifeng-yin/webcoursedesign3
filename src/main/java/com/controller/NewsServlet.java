@@ -26,7 +26,7 @@ public class NewsServlet extends HttpServlet {
             PreparedStatement st = conn.prepareStatement(sql);
             ResultSet rs = st.executeQuery()) {
             while (rs.next()) {
-                News news1 = new News(rs.getInt("id"), rs.getString("title"), rs.getString("url"),rs.getTimestamp("date"));
+                News news1 = new News(rs.getInt("id"), rs.getString("title"),rs.getString("txt"),rs.getTimestamp("date"));
                 news.add(news1);
             }
         } catch (SQLException throwables) {

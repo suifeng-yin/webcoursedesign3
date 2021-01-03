@@ -130,7 +130,8 @@
 
         }
         .jieshao p{
-            text-align: left;
+            text-align: justify;
+            text-indent: 2em;
             color: darkslateblue;
             font-size: 30px;
             padding: 20px;
@@ -155,6 +156,7 @@
             font-size: 20px;
             border-radius: 5px;
             border: #365ca3 1px solid;
+            background-color: antiquewhite;
         }
         .main-nav ul li a{
             text-decoration: none;
@@ -211,7 +213,7 @@
 </div>
 <div  id="main">
     <div style="width: 100px"></div>
-    <div align="center" class="main-nav"">
+    <div align="center" class="main-nav">
         <nav>
             <ul><p>实验室</p>
                 <li><a href="/lab923">923创新实验室</a></li>

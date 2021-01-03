@@ -196,7 +196,7 @@
                 <h3 style="padding: 10px">新闻</h3>
                 <hr>
                 <c:forEach items="${news }" var="u">
-                    <li><a href="${u.urll}">${u.title }</a><span>${u.updatetime}</span></li>
+                    <li><a href="getnews?uid=${u.id}">${u.title }</a><span>${u.updatetime}</span></li>
                 </c:forEach>
             </ul>
         </div>
@@ -210,7 +210,7 @@
                 <h3 style="padding: 10px">公告</h3>
                 <hr>
                 <c:forEach items="${news }" var="u">
-                    <li><a href="${u.urll}">${u.title }</a><span>${u.updatetime}</span></li>
+                    <li><a href="getnews?uid=${u.id}">${u.title }</a><span>${u.updatetime}</span></li>
                 </c:forEach>
             </ul>
         </div>

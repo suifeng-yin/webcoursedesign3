@@ -127,7 +127,8 @@
 
         }
         .jieshao p{
-            text-align: left;
+            text-align: justify;
+            text-indent: 2em;
             color: darkslateblue;
             font-size: 30px;
             padding: 20px;
