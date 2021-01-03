@@ -39,7 +39,7 @@ public class GetNewsServlet extends HttpServlet {
             throwables.printStackTrace();
         }
         req.setAttribute("news",news);
-        req.getRequestDispatcher("/WEB-INF/query.jsp")
+        req.getRequestDispatcher("WEB-INF/query.jsp")
                 .forward(req,resp);
     }
 }

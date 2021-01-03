@@ -1,7 +1,10 @@
 <%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <c:url var="base" value="/"/>
+    <base href="${base}">
     <meta charset="UTF-8">
     <title>lab923</title>
     <style>
@@ -186,29 +189,29 @@
         <li><a href="#">专业介绍</a>
             <ul>
                 <li>
-                    <a href="/specialty">专业简介</a>
+                    <a href="specialty">专业简介</a>
                 </li>
                 <li>
-                    <a href="/direction">方向简介</a>
+                    <a href="direction">方向简介</a>
                 </li>
             </ul>
         </li>
         <li><a href="#">实验室</a>
             <ul>
-                <li><a href="/lab923">923创新实验室</a></li>
-                <li><a href="/lab925">925移动开发实验室</a></li>
+                <li><a href="lab923">923创新实验室</a></li>
+                <li><a href="lab925">925移动开发实验室</a></li>
             </ul>
         </li>
         <li><a href="#">教师队伍</a>
             <ul>
-                <li><a href="/pro">教授</a></li>
-                <li><a href="/AP">副教授</a></li>
-                <li><a href="/teacher">讲师</a></li>
+                <li><a href="pro">教授</a></li>
+                <li><a href="AP">副教授</a></li>
+                <li><a href="teacher">讲师</a></li>
             </ul>
         </li>
-        <li><a href="/guide">就业指南</a></li>
-        <li><a href="/news">新闻公告</a></li>
-        <li><a href="/login">管理员登录</a></li>
+        <li><a href="guide">就业指南</a></li>
+        <li><a href="news">新闻公告</a></li>
+        <li><a href="login">管理员登录</a></li>
     </ul>
 </div>
 <div  id="main">
@@ -216,14 +219,14 @@
     <div align="center" class="main-nav">
         <nav>
             <ul><p>实验室</p>
-                <li><a href="/lab923">923创新实验室</a></li>
-                <li><a href="/lab925">925移动开发实验室</a></li>
+                <li><a href="lab923">923创新实验室</a></li>
+                <li><a href="lab925">925移动开发实验室</a></li>
             </ul>
         </nav>
     </div>
     <div align="center" class="jieshao">
         <h1 >923创新实验室</h1>
-        <img src="/img/6.jpg" alt="" width="736px" height="499px">
+        <img src="img/6.jpg" alt="" width="736px" height="499px">
         <p>
             Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. A

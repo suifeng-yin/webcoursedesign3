@@ -33,7 +33,7 @@ public class WelcomeServlet extends HttpServlet {
             throwables.printStackTrace();
         }
         req.setAttribute("news",news);
-        req.getRequestDispatcher("/WEB-INF/welcome.jsp")
+        req.getRequestDispatcher("WEB-INF/welcome.jsp")
                 .forward(req,resp);
 
     }

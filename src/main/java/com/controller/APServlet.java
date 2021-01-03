@@ -11,7 +11,7 @@ import java.io.IOException;
 public class APServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/AP.jsp")
+        req.getRequestDispatcher("WEB-INF/AP.jsp")
                 .forward(req,resp);
     }
 }
