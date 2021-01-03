@@ -1,7 +1,10 @@
+<%@ page pageEncoding="utf-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <base href="/web_course_design_war_explode/">
+    <c:url var="base" value="/"/>
+    <base href="${base}">
     <meta charset="UTF-8">
     <title>东北林业大学信息与计算机工程学院</title>
     <style>
@@ -125,7 +128,7 @@
 <div id="menunav">
     <div class="menunav">
         <div class="logo">
-            <a href="index.html">
+            <a href="index.jsp">
             <img src="img/lolo.png" alt="">
             </a>
         </div>
@@ -134,7 +137,7 @@
 </div>
 <div class="nav">
     <ul>
-        <li><a href="index.html">首页</a></li>
+        <li><a href="index.jsp">首页</a></li>
         <li><a href="#">专业介绍</a>
             <ul>
                 <li>

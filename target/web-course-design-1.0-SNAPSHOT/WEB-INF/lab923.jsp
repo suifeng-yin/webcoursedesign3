@@ -176,7 +176,7 @@
 <div id="menunav">
     <div class="menunav">
         <div class="logo">
-            <a href="index.html">
+            <a href="index.jsp">
                 <img src="img/lolo.png" alt="">
             </a>
         </div>
@@ -185,7 +185,7 @@
 </div>
 <div class="nav">
     <ul>
-        <li><a href="index.html">首页</a></li>
+        <li><a href="index.jsp">首页</a></li>
         <li><a href="#">专业介绍</a>
             <ul>
                 <li>
