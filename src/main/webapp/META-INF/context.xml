@@ -2,7 +2,7 @@
 <Context>
     <Resource name="jdbc/MySQL" type="javax.sql.DataSource"
               maxTotal="100" maxIdle="30" maxWaitMillis="10000" initialSize="5"
-              username="2018214362" password="2018214362"
+              username="2018224348" password="2018224348"
               driverClassName="com.mysql.cj.jdbc.Driver"
-              url="jdbc:mysql://114.116.213.241:3306/2018214362?serverTimezone=Asia/Shanghai" />
+              url="jdbc:mysql://114.116.213.241:3306/2018224348?serverTimezone=Asia/Shanghai" />
 </Context>

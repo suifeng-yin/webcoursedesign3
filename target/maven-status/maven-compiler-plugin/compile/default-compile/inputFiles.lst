@@ -1,18 +1,18 @@
-E:\web-course-design\src\main\java\com\controller\TeacherServlet.java
-E:\web-course-design\src\main\java\com\controller\AddNewsServlet.java
-E:\web-course-design\src\main\java\com\EncodingFilter.java
-E:\web-course-design\src\main\java\com\controller\NewsServlet.java
-E:\web-course-design\src\main\java\com\controller\DirectionServlet.java
-E:\web-course-design\src\main\java\com\controller\GetNewsServlet.java
-E:\web-course-design\src\main\java\com\util\DataSourceUtils.java
-E:\web-course-design\src\main\java\com\controller\LoginServlet.java
-E:\web-course-design\src\main\java\com\controller\SpecialtyServlet.java
-E:\web-course-design\src\main\java\com\controller\Lab923Servlet.java
-E:\web-course-design\src\main\java\com\controller\Lab925Servlet.java
-E:\web-course-design\src\main\java\com\controller\UpdateNewsServlet.java
-E:\web-course-design\src\main\java\com\controller\WelcomeServlet.java
-E:\web-course-design\src\main\java\com\controller\ProServlet.java
-E:\web-course-design\src\main\java\com\controller\DeleteNewsServlet.java
-E:\web-course-design\src\main\java\com\entity\News.java
-E:\web-course-design\src\main\java\com\controller\APServlet.java
-E:\web-course-design\src\main\java\com\controller\GuideServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\UpdateNewsServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\DeleteNewsServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\WelcomeServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\TeacherServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\DirectionServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\GuideServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\ProServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\Lab923Servlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\Lab925Servlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\SpecialtyServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\AddNewsServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\APServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\util\DataSourceUtils.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\GetNewsServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\LoginServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\EncodingFilter.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\controller\NewsServlet.java
+C:\Users\Lenovo\Desktop\webcoursedesign 2\src\main\java\com\entity\News.java

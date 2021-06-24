@@ -17,7 +17,7 @@
             margin: 0 auto;
             width: 100%;
             height: 100px;
-            background-color: #002147;
+            background-color: rgb(31,134,34);;
         }
         img{
             border: 0;
@@ -40,7 +40,7 @@
             height: 53px;
             line-height: 53px;
             width: 100%;
-            background: #002147;
+            background: rgb(31,134,34);;
         }
         .nav ul {
             padding: 0;
@@ -55,7 +55,7 @@
             display: block;
         }
         .nav ul li a:hover{
-            background: #001733;
+            background: rgb(64,224,208);
         }
         .nav ul li ul {
             display: none;
@@ -78,16 +78,16 @@
             display:block;
             text-align:center;
             line-height:35px;
-            background:#001733;
+            background:rgb(31,134,34);
             padding:0 5px;
             font-size:14px;
             color:#fff;
-            border-top:1px solid #365ca3;
+            border-top:1px solid rgb(31,134,34);
         }
         .nav ul li:hover ul li a:hover {
             color:#fff;
             text-align:center;
-            background:#013b7d;
+            background:rgb(31,134,34);;
         }
 
         .nav ul li a {
@@ -100,12 +100,12 @@
         }
         #footer {
             width: 100%;
-            background-color: #002147;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom{
             width: 100%;
             height: 64px;
-            background-color: #001733;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom p {
             width: 1280px;
@@ -168,26 +168,14 @@
 <div id="main">
     <div style="padding: 40px 30px">
         <div align="center">
-            <h1 style="color: darkslategrey;padding: 30px">就业指南 </h1>
-            <img src="img/2%20(1).jpg" alt="">
+            <h1 style="color: rgb(31,134,34);padding: 30px">就业指南 </h1>
+            <img src="img/yq.png" alt="">
         </div>
-        <p style="padding: 10px;color: darkslateblue;text-align: justify; text-indent: 40px;
+        <p style="padding: 10px;color: rgb(31,134,34);text-align: justify; text-indent: 40px;
         font-size: 20px">
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.
-            Autem dolor, excepturi explicabo itaque placeat quae quia!
-            Autem eum iste itaque labore, nemo,
-            neque nulla odit perspiciatis quo temporibus ut vel.
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.
-            Ab aspernatur aut autem deleniti eaque eius eligendi exercitationem
-            harum impedit labore maiores non officia officiis,
-            perspiciatis quibusdam, saepe ut veritatis, voluptatibus?
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.
-            Accusantium ad aliquam delectus deleniti molestiae voluptatem!
-            Ab aliquam aperiam, consequatur cum, et excepturi,
-            expedita iusto laudantium minus pariatur quis sit tempora.
+            为加强我校职业生涯规划与就业指导课程教师队伍建设，促进职业生涯规划及就业指导课程教学质量提高，7月15日，就业指导与合作发展处在综合楼11楼举行2020年度职业生涯规划与就业指导课程新教师试讲。
+            本次试讲共有17位教师报名参加，试讲的各位老师分别从两门课程的教学大纲中选取了简历撰写、求职目标、面试指导等章节进行试讲。试讲现场由课程组的各位老师担任评委并逐一进行点评。
+            我校将以本次试讲为契机，继续加强就业课程教师队伍建设，提升我校就业课程标准化、专业化、系统化水平，更好的为我校学生提供科学化的就业指导课程体系。
 
 
         </p>
@@ -197,7 +185,7 @@
 </div>
 <div id="footer">
     <div class="footer-bottom">
-        <p>版权所有</p>
+        <p>地址：黑龙江省哈尔滨市香坊区文政街道26号</p>
     </div>
 
 </div>

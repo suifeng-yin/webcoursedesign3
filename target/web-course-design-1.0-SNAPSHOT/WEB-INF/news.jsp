@@ -18,7 +18,7 @@
             margin: 0 auto;
             width: 100%;
             height: 100px;
-            background-color: #002147;
+            background-color: rgb(31,134,34);;
         }
         img{
             border: 0;
@@ -41,7 +41,7 @@
             height: 53px;
             line-height: 53px;
             width: 100%;
-            background: #002147;
+            background: rgb(31,134,34);;
         }
         .nav ul {
             padding: 0;
@@ -56,7 +56,7 @@
             display: block;
         }
         .nav ul li a:hover{
-            background: #001733;
+            background: rgb(64,224,208);
         }
         .nav ul li ul {
             display: none;
@@ -79,16 +79,16 @@
             display:block;
             text-align:center;
             line-height:35px;
-            background:#001733;
+            background:rgb(31,134,34);
             padding:0 5px;
             font-size:14px;
             color:#fff;
-            border-top:1px solid #365ca3;
+            border-top:1px solid rgb(31,134,34);
         }
         .nav ul li:hover ul li a:hover {
             color:#fff;
             text-align:center;
-            background:#013b7d;
+            background:rgb(31,134,34);;
         }
 
         .nav ul li a {
@@ -101,12 +101,12 @@
         }
         #footer {
             width: 100%;
-            background-color: #002147;
+            background-color: rgb(31,134,34);;
         }
         .footer-bottom{
             width: 100%;
             height: 64px;
-            background-color: #001733;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom p {
             width: 1280px;
@@ -119,7 +119,7 @@
         #main{
             background: azure;
             margin: 0 auto;
-
+            display: flex;
         }
 
         .news{
@@ -190,7 +190,7 @@
 </div>
 <div id="main">
     <div class="news">
-        <img src="img/2%20(1).jpg" alt="">
+        <img src="img/3333.jpg" alt="">
         <div class="newslist">
             <ul style="padding: 10px">
                 <h3 style="padding: 10px">新闻</h3>
@@ -220,7 +220,7 @@
 </div>
 <div id="footer">
     <div class="footer-bottom">
-        <p>版权所有</p>
+        <p>地址：黑龙江省哈尔滨市香坊区文政街道26号</p>
     </div>
 
 </div>

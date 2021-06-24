@@ -17,7 +17,7 @@
             margin: 0 auto;
             width: 100%;
             height: 100px;
-            background-color: #002147;
+            background-color: rgb(31,134,34);;
         }
         img{
             border: 0;
@@ -40,7 +40,7 @@
             height: 53px;
             line-height: 53px;
             width: 100%;
-            background: #002147;
+            background: rgb(31,134,34);;
         }
         .nav ul {
             padding: 0;
@@ -55,7 +55,7 @@
             display: block;
         }
         .nav ul li a:hover{
-            background: #001733;
+            background: rgb(64,224,208);
         }
         .nav ul li ul {
             display: none;
@@ -78,16 +78,16 @@
             display:block;
             text-align:center;
             line-height:35px;
-            background:#001733;
+            background:rgb(31,134,34);
             padding:0 5px;
             font-size:14px;
             color:#fff;
-            border-top:1px solid #365ca3;
+            border-top:1px solid rgb(31,134,34);
         }
         .nav ul li:hover ul li a:hover {
             color:#fff;
             text-align:center;
-            background:#013b7d;
+            background:rgb(31,134,34);;
         }
 
         .nav ul li a {
@@ -100,12 +100,12 @@
         }
         #footer {
             width: 100%;
-            background-color: #002147;
+            background-color: rgb(31,134,34);;
         }
         .footer-bottom{
             width: 100%;
             height: 64px;
-            background-color: #001733;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom p {
             width: 1280px;
@@ -119,7 +119,6 @@
             background: azure;
             margin: 0 auto;
             display: flex;
-
         }
         .jieshao{
             width: 1000px;
@@ -129,15 +128,15 @@
         }
         .jieshao h1{
             padding: 50px 20px 20px 20px;
-            color: #365ca3;
+            color: rgb(31,134,34);
 
         }
         .jieshao p{
             text-align: justify;
-            color: darkslateblue;
+            text-indent: 2em;
+            color: rgb(31,134,34);
             font-size: 30px;
             padding: 20px;
-
         }
         .main-nav{
             width: 200px;
@@ -150,23 +149,26 @@
         .main-nav p{
             padding: 30px;
             font-size: 30px;
-            border: #df0000 1px solid;
-            background: #df0000;
+            border: #99CCCC 1px solid;
+            background: #99CCCC;
             border-radius: 5px;
         }
         .main-nav ul li{
             padding: 10px;
             font-size: 20px;
             border-radius: 5px;
-            border: #365ca3 1px solid;
-            background-color: antiquewhite;
+            border: rgb(31,134,34) 1px solid;
+            background-color: #99CC99;
         }
         .main-nav ul li a{
-            display: block;
             text-decoration: none;
+            color: black;
         }
         .main-nav ul li:hover{
-            background: #001733;
+            background: rgb(31,134,34);
+        }
+        .main-nav ul li:hover a{
+            color: white;
         }
         .main-nav ul li a:hover{
             color: #f5f7f9;
@@ -228,39 +230,13 @@
 <div class="jieshao">
     <h1 >925移动开发实验室</h1>
     <p style="text-indent: 2em">
-        Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. A
-        d at autem culpa debitis dolore dolorem
-        ducimus eius ex nisi placeat quas quasi quisquam,
-        quo repudiandae rerum tenetur vel voluptatem voluptatibus!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
-        mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
-        praesentium qui quod repellendus?
-        Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. A
-        d at autem culpa debitis dolore dolorem
-        ducimus eius ex nisi placeat quas quasi quisquam,
-        quo repudiandae rerum tenetur vel voluptatem voluptatibus!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
-        mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
-        praesentium qui quod repellendus?
-        Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. A
-        d at autem culpa debitis dolore dolorem
-        ducimus eius ex nisi placeat quas quasi quisquam,
-        quo repudiandae rerum tenetur vel voluptatem voluptatibus!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-        Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
-        mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
-        praesentium qui quod repellendus?
+        移动开发也称为手机开发，或叫做移动互联网开发，移动应用开发等。是指以手机、PDA、UMPC等便携终端为基础，进行相应的开发工作，由于这些随身设备基本都采用无线上网的方式，因此，业内也称作为无线开发。移动应用包括早期的WM掌上助理设备，Web os设备、java设备、塞班设备，以及现在现在火热的安卓和苹果设备等移动应用的开发。移动应用的形成对移动设备的功能有了长足的拓展。设备可以不单单只靠自带的简陋功能，而是可以像计算机一样通过安装应用程序、游戏程序等进行扩展，使移动设备成为更能帮助人们解决事物的个人智能终端。
     </p>
 </div>
 </div>
 <div id="footer">
     <div class="footer-bottom">
-        <p>版权所有</p>
+        <p>地址：黑龙江省哈尔滨市香坊区文政街道26号</p>
     </div>
 
 </div>

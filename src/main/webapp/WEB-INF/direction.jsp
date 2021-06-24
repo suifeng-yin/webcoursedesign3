@@ -17,7 +17,7 @@
             margin: 0 auto;
             width: 100%;
             height: 100px;
-            background-color: #002147;
+            background-color: rgb(31,134,34);;
         }
         img{
             border: 0;
@@ -40,7 +40,7 @@
             height: 53px;
             line-height: 53px;
             width: 100%;
-            background: #002147;
+            background: rgb(31,134,34);;
         }
         .nav ul {
             padding: 0;
@@ -55,7 +55,7 @@
             display: block;
         }
         .nav ul li a:hover{
-            background: #001733;
+            background: rgb(64,224,208);
         }
         .nav ul li ul {
             display: none;
@@ -78,16 +78,16 @@
             display:block;
             text-align:center;
             line-height:35px;
-            background:#001733;
+            background:rgb(31,134,34);
             padding:0 5px;
             font-size:14px;
             color:#fff;
-            border-top:1px solid #365ca3;
+            border-top:1px solid rgb(31,134,34);
         }
         .nav ul li:hover ul li a:hover {
             color:#fff;
             text-align:center;
-            background:#013b7d;
+            background:rgb(31,134,34);;
         }
 
         .nav ul li a {
@@ -100,12 +100,12 @@
         }
         #footer {
             width: 100%;
-            background-color: #002147;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom{
             width: 100%;
             height: 64px;
-            background-color: #001733;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom p {
             width: 1280px;
@@ -118,21 +118,21 @@
         #main{
             background: azure;
             margin: 0 auto;
-
+            display: flex;
         }
         .jieshao{
-            width: 1000px;
             height: auto;
         }
         .jieshao h1{
             padding: 50px 20px 20px 20px;
-            color: #365ca3;
+            color: rgb(31,134,34);
 
         }
         .jieshao p{
+            width: 100%;
             text-align: justify;
             text-indent: 2em;
-            color: darkslateblue;
+            color: rgb(31,134,34);
             font-size: 30px;
             padding: 20px;
         }
@@ -183,40 +183,15 @@
 <div align="center" id="main">
     <div class="jieshao">
         <h1 >方向简介</h1>
+        <img src="img/fx.jpg" alt="">
         <p>
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. A
-            d at autem culpa debitis dolore dolorem
-            ducimus eius ex nisi placeat quas quasi quisquam,
-            quo repudiandae rerum tenetur vel voluptatem voluptatibus!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
-            mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
-            praesentium qui quod repellendus?
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. A
-            d at autem culpa debitis dolore dolorem
-            ducimus eius ex nisi placeat quas quasi quisquam,
-            quo repudiandae rerum tenetur vel voluptatem voluptatibus!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
-            mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
-            praesentium qui quod repellendus?
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. A
-            d at autem culpa debitis dolore dolorem
-            ducimus eius ex nisi placeat quas quasi quisquam,
-            quo repudiandae rerum tenetur vel voluptatem voluptatibus!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consequuntur numquam qui voluptatem! Dolorum, id illo laboriosam
-            mollitia nostrum qui quos repellat? Ea eaque excepturi fuga neque
-            praesentium qui quod repellendus?
+            软件工程专业综合实验室，服务于专业的课程实验和创新创业项目，培养学生获得软件项目管理和开发经验，完成系统开发的实习、实训。软件工程专业综合实验室下设软件工程实验室（系统开发实训基地）、嵌入式技术实验室、移动开发实验室和IOS开发实验室。主要完成基于行业标准和技术的Rational统一过程和测试、软件体系结构、面向对象技术与UML、软件需求与分析、软件测试和质量保证、移动开发和IOS开发等课程的实验。同时，依托国家级大型软件企业，建立了校企合作的实习、实训基地。结合企业项目、师资、环境等对学生进行有针对性的工程能力训练，使学生具备综合运用所学知识解决复杂工程问题的能力。
         </p>
     </div>
 </div>
 <div id="footer">
     <div class="footer-bottom">
-        <p>版权所有</p>
+        <p>地址：黑龙江省哈尔滨市香坊区文政街道26号</p>
     </div>
 
 </div>

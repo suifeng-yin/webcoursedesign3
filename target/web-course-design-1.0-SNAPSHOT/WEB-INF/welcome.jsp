@@ -19,7 +19,7 @@
         .top{
             width: 100%;
             color: #fff;
-            background-color: #002147;
+            background-color: rgb(31,134,34);
             padding: 30px;
         }
         .query{
@@ -62,19 +62,19 @@
             padding: 20px;
         }
         h3{
-            color: #365ca3;
+            color: rgb(31,134,34);
             text-align: center;
             padding: 20px;
         }
 
         #footer {
             width: 100%;
-            background-color: #002147;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom{
             width: 100%;
             height: 64px;
-            background-color: #001733;
+            background-color: rgb(31,134,34);
         }
         .footer-bottom p {
             width: 1280px;
@@ -82,6 +82,9 @@
             line-height: 64px;
             text-align: center;
             color: #ebebeb;
+        }
+        a{
+            color: rgb(31,134,34);
         }
     </style>
 </head>
@@ -149,7 +152,7 @@
 </div>
 <div id="footer">
     <div class="footer-bottom">
-        <p>版权所有</p>
+        <p>地址：黑龙江省哈尔滨市香坊区文政街道26号</p>
     </div>
 
 </div>
